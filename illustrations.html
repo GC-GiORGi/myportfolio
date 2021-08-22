@@ -48,16 +48,19 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Projects</a>
                     <div class="dropdown-menu" arial-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="/digital-wallet.html">Landing Page - Digital Wallet</a>
+                      <a class="dropdown-item" href="/cosmetics.html">Cosmetic Shop - Landing Page Design</a>
+                      <a class="dropdown-item" href="/weather.html">Weather App UI</a>
+                      <a class="dropdown-item" href="/myoutletapp.html">MyOutlet - App Design</a>
                       <a class="dropdown-item" href="/gaming-store.html">Gaming Store</a>
-                      <a class="dropdown-item" href="/myoutletapp.html">MyOutlet App</a>
                       <a class="dropdown-item" href="/megobari-tvali.html">UI/UX Mobile Design</a>
                       <a class="dropdown-item" href="/ui-ux.html">UI/UX</a>
+                      <a class="dropdown-item" href="/web-development.html">Web Development</a>
                       <a class="dropdown-item" href="/Business-Cards.html">Business Cards</a>
-                      <a class="dropdown-item" href="/animated-web.html">Animated Web-Design</a>
-                      <a class="dropdown-item" href="/Logo-Design.html">Logo Design</a>
+                      <a class="dropdown-item" href="/animated-web.html">Fully Animated Web-Design</a>
+                      <a class="dropdown-item" href="/Logo-Design.htmll">Logofolio</a>
                       <a class="dropdown-item" href="/poto-manipul.html">Photo Manipulations</a>
                       <a class="dropdown-item" href="/illustrations.html">Illustrations</a>
-                      <a class="dropdown-item" href="/fandefb.html">Feelings & Emotions</a>
                     </div>
             </ul>
         </div>
@@ -94,7 +97,18 @@
         <div class="myprojects">
             <img src="/projects/girl illustration.jpg" onclick="openModal();currentSlide(2)" class="cursor">
             <div class="overlay two">Illustrated Girl</div>
-        </div>
+        </div><br>
+        <div class="myprojects">
+          <img src="/projects/girl and boy illustrated.jpg" onclick="openModal();currentSlide(3)" class="cursor">
+          <div class="overlay two">Illustrated Characters</div>
+      </div><br>
+      <div class="myprojects">
+        <img src="/projects/big city illustration.jpg" onclick="openModal();currentSlide(4)" class="cursor">
+        <div class="overlay two">Big City Illustration</div>
+    </div><br>
+    <video width="100%" autoplay loop>
+      <source src="/projects/big city illustration.mp4" type="video/mp4">
+  </video>
     </div>
       
       <div id="myModal" class="modal">
@@ -106,6 +120,12 @@
           </div>
           <div class="mySlides">
             <img src="/projects/girl illustration.jpg" onclick="currentSlide(2)">
+          </div>
+          <div class="mySlides">
+            <img src="/projects/girl and boy illustrated.jpg" onclick="currentSlide(3)">
+          </div>
+          <div class="mySlides">
+            <img src="/projects/big city illustration.jpg" onclick="currentSlide(4)">
           </div>
           
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -120,6 +140,13 @@
            <div class="column">
               <img class="demo cursor" onclick="currentSlide(2)" alt="Illustrated Girl">
            </div>
+           <div class="column">
+            <img class="demo cursor" onclick="currentSlide(3)" alt="Illustrated Characters">
+         </div>
+         <div class="column">
+          <img class="demo cursor" onclick="currentSlide(4)" alt="Big City Illustration">
+       </div>
+      </div>
          
         </div>
       </div>
